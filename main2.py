@@ -50,9 +50,8 @@ else:
 
 #Prompt for further input. 
 file_name = input("What is your file name and the location? ")
-if not file_name:
-    print("Invalid file name. Please enter a valid file name. ")
-    exit()
+if file_name == "":
+   print("Invalid file name. Please enter a valid file name. ")
 else:
     print(f"Thank you, {name}. File name is valid.")
 
